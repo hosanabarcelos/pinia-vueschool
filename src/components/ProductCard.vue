@@ -2,15 +2,12 @@
 // imports
 import { ref } from "vue";
 import AppCountInput from "./AppCountInput.vue";
-
 // props
 const props = defineProps({
   product: Object,
 });
-
 // emits
 defineEmits(["addToCart"])
-
 // data
 const count = ref(0);
 </script>
